@@ -32,7 +32,7 @@ The tool follows a two-stage process:
 ### Example
 
 **Ticket:**  
-"Customers want to change the brand color from cyan to teal."
+"Add Dark Mode option in website"
 
 **Result:**  
 Decision Required → Product Manager
@@ -40,22 +40,20 @@ Decision Required → Product Manager
 Whereas:
 
 **Ticket:**  
-"Increase the homepage heading font size to 24px."
+"Checkout button not working"
 
 **Result:**  
-No Decision Required → Design Team
+No Decision Required → Development Team
 
 The key principle is that a UI or design change does **not** automatically mean a PM decision is required. The system looks for actual product-level judgment, prioritization, trade-offs, approval, or clarification.
 
-## Assumptions & Shortcuts
+## Assumptions 
 
-Given the time constraint of the assignment, the MVP intentionally focuses on the core classification and routing workflow.
+The MVP intentionally focuses on the core classification and routing workflow.
 
 - **AI + rule-based hybrid:** AI is used to understand and classify the ticket, while deterministic rules control the final routing.
 - **Predefined teams:** The MVP uses a limited set of execution categories such as Design, Development, and QA rather than dynamically discovering teams.
 - **PM as the decision owner:** Any ticket classified as requiring a product-level decision is routed to the Product Manager.
-- **No individual workload assignment:** The MVP routes to a team/role rather than selecting a specific person based on availability, workload, or expertise.
-- **No production integrations:** The MVP does not integrate with tools such as Jira, Linear, Zendesk, or existing enterprise ticketing systems.
 - **Ambiguous requests:** Requests that cannot be confidently routed are intended to be handled through a manual-review/fallback path rather than being randomly assigned.
 
 ## MVP Scope
@@ -72,12 +70,3 @@ Given the time constraint of the assignment, the MVP intentionally focuses on th
 
 [View the Live MVP](https://ai-ticket-routing-tool.lovable.app/)
 
-## Future Improvements
-
-Potential next steps would include:
-
-- Integration with existing ticketing systems
-- Individual assignment based on ownership, workload, and expertise
-- Confidence scores and human feedback loops
-- Analytics for routing accuracy and manual-review rates
-- Learning from historical routing decisions
