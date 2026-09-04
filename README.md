@@ -45,8 +45,6 @@ Whereas:
 **Result:**  
 No Decision Required → Development Team
 
-The key principle is that a UI or design change does **not** automatically mean a PM decision is required. The system looks for actual product-level judgment, prioritization, trade-offs, approval, or clarification.
-
 ## Assumptions 
 
 The MVP intentionally focuses on the core classification and routing workflow.
